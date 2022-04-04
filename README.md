@@ -10,7 +10,7 @@ This script requires the following Python packages:
 - Pandas : https://github.com/pandas-dev/pandas
 
 # Usage
-As provided, you should open the script and add the directory to the file you want to extract
+As provided, you should open the script `bruker2csv.py` and add the directory to the file you want to extract
 
 `data_dir = os.path.normpath('C:/Bruker/TopSpin4.1.3/data/400/Sample/10/pdata/1')`
 
@@ -25,6 +25,6 @@ Then you should run on your command line
 and a new csv file will be created
 
 ## Using Jupyter Notebooks
-In my workflow, I use this script in Jupyter Notebooks and plot the NMR spectrum using Matplotlib. See the `bruker2csv_JN.ipynb` file.
+In my workflow, I use this script in [Jupyter Notebook](https://github.com/jupyter/notebook) and plot the NMR spectrum using [Matplotlib](https://github.com/matplotlib/matplotlib). See the `bruker2csv_JN.ipynb` file.
 
 Feel free to contact me if you need any help using this!
