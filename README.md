@@ -9,6 +9,12 @@ This script requires the following Python packages:
 - Numpy : https://github.com/numpy/numpy
 - Pandas : https://github.com/pandas-dev/pandas
 
+If you have a working Python and pip installation you can install all the dependancies by running
+
+````
+pip install nmrglue numpy pandas
+````
+
 # Usage
 As provided, you should open the script `bruker2csv.py` and add the directory to the file you want to extract
 
